@@ -7,8 +7,8 @@ Scripts em python
 1 = Mostra as URLs de acesso 
 	
 ###### Example usage 
-python schedule_paloalto.py -l -f 10.1.0.210
+python services.py -l -f 10.1.0.210
 
-python schedule_paloalto.py -s -f 10.1.0.210 -o Equipe_Windows
+python services.py -s -f 10.1.0.210 -o Equipe_Windows
 
-python schedule_paloalto.py --commit -f 10.1.0.210 
+python services.py --commit -f 10.1.0.210 
